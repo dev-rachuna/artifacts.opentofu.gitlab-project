@@ -1,7 +1,7 @@
 {
   "": {
     "avatar": "",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [],
     "ci_variables": {},
     "protected_branches": {
@@ -15,7 +15,7 @@
   },
   "gitlab-profile": {
     "avatar": "images/project/gitlab-profile.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "gitlab-profile"
     ],
@@ -31,7 +31,7 @@
   },
   "gitlab-pipelines": {
     "avatar": "images/project/gitlab.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "gitlab-profile"
     ],
@@ -49,7 +49,7 @@
   },
   "ansible-playbook": {
     "avatar": "images/project/ansible.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "ansible",
       "ansible-playbook"
@@ -71,7 +71,7 @@
   },
   "ansible-role": {
     "avatar": "images/project/ansible.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "ansible",
       "ansible-role"
@@ -88,7 +88,7 @@
   },
   "image-builder": {
     "avatar": "images/project/container.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "opentofu",
       "opentofu-module"
@@ -107,7 +107,7 @@
   },
   "opentofu-module": {
     "avatar": "images/project/opentofu.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "opentofu",
       "opentofu-module"
@@ -133,7 +133,7 @@
   },
   "opentofu-iac": {
     "avatar": "images/project/opentofu.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "opentofu",
       "opentofu-iac"
@@ -155,7 +155,7 @@
   },
   "nodejs": {
     "avatar": "images/project/nodejs.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "gitlab-profile"
     ],
@@ -173,7 +173,7 @@
   },
   "dotnet-nuget": {
     "avatar": "images/project/dotnet-nuget.png",
-    "gitlab_ci_path": ".gitlab-ci.yml@pl.rachuna-net/flows/gitlab:feat/dotnet-nuget-ci",
+    "gitlab_ci_path": ".gitlab-ci.yml@dev.rachuna/flows/gitlab:feat/dotnet-nuget-ci",
     "tags": [
       "dotnet",
       "nuget"

@@ -2,7 +2,7 @@
 
 ## Cel modułu
 
-Reużywalny moduł OpenTofu/Terraform opakowujący provider `gitlabhq/gitlab` w zestaw opinionated ustawień dla projektów pl.rachuna-net: tworzenie repozytoriów GitLab wraz z pełną konfiguracją (chronione gałęzie/tagi, reguły zatwierdzania MR, harmonogramy CI, zmienne, środowiska, mirror, avatar).
+Reużywalny moduł OpenTofu/Terraform opakowujący provider `gitlabhq/gitlab` w zestaw opinionated ustawień dla projektów dev.rachuna: tworzenie repozytoriów GitLab wraz z pełną konfiguracją (chronione gałęzie/tagi, reguły zatwierdzania MR, harmonogramy CI, zmienne, środowiska, mirror, avatar).
 
 ## Struktura repozytorium
 
@@ -60,4 +60,4 @@ Aktualnie eksponowane: `name`, `description` (patrz [output.tf](../output.tf)).
 
 - Provider GitLab: https://registry.terraform.io/providers/gitlabhq/gitlab/18.8.2
 - Convention Commits (standard commitów projektu): https://www.conventionalcommits.org/
-- Wiki standardów: https://gitlab.com/pl.rachuna-net/ai/openclaw/gitlab-profile/-/wikis/Standardy/Conventional-Commits
+- Wiki standardów: https://gitlab.com/dev.rachuna/ai/openclaw/gitlab-profile/-/wikis/Standardy/Conventional-Commits
