@@ -1,6 +1,6 @@
 ![GitLab Stars](https://img.shields.io/gitlab/stars/dev.rachuna/artifacts/opentofu/gitlab-project)
 ![GitLab Forks](https://img.shields.io/gitlab/forks/dev.rachuna/artifacts/opentofu/gitlab-project)
-![Repository Type](https://img.shields.io/badge/Repository%20type-documentation-blue)
+![Repository Type](https://img.shields.io/badge/Repository%20type-opentofu%20module-yellow)
 ![GitLab Release](https://img.shields.io/gitlab/v/release/dev.rachuna/artifacts/opentofu/gitlab-project)
 ![Gitlab Pipeline Status](https://img.shields.io/gitlab/pipeline-status/dev.rachuna/artifacts/opentofu/gitlab-project)
 ![GitLab Issues](https://img.shields.io/gitlab/issues/open/dev.rachuna/artifacts/opentofu/gitlab-project)
