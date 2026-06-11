@@ -23,6 +23,13 @@ resource "gitlab_project" "project" {
   }
 }
 
+resource "gitlab_project_cicd_catalog" "catalog" {
+  count = var.ci_cd_catalog_enabled ? 1 : 0
+
+  project = gitlab_project.project.id
+  enabled = true
+}
+
 resource "gitlab_project_push_rules" "push_rule" {
   count = var.is_gitlab_free == true ? 0 : 1
 

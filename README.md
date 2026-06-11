@@ -31,6 +31,7 @@ No modules.
 | [gitlab_pipeline_schedule_variable.ci_schedule_variable](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/pipeline_schedule_variable) | resource |
 | [gitlab_project.project](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/project) | resource |
 | [gitlab_project_approval_rule.approval_rule](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/project_approval_rule) | resource |
+| [gitlab_project_cicd_catalog.catalog](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/project_cicd_catalog) | resource |
 | [gitlab_project_environment.environment](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/project_environment) | resource |
 | [gitlab_project_label.label](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/project_label) | resource |
 | [gitlab_project_mirror.mirror](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/project_mirror) | resource |
@@ -53,6 +54,7 @@ No modules.
 | <a name="input_avatar"></a> [avatar](#input\_avatar) | Path to the avatar .png file (default: derived from project type) | `string` | `""` | no |
 | <a name="input_avatars_dir"></a> [avatars\_dir](#input\_avatars\_dir) | Avatars directory png files | `string` | `""` | no |
 | <a name="input_build_git_strategy"></a> [build\_git\_strategy](#input\_build\_git\_strategy) | The Git strategy. Defaults to fetch. | `string` | `"clone"` | no |
+| <a name="input_ci_cd_catalog_enabled"></a> [ci\_cd\_catalog\_enabled](#input\_ci\_cd\_catalog\_enabled) | Enable the project as a CI/CD Catalog resource. | `bool` | `false` | no |
 | <a name="input_ci_push_repository_for_job_token_allowed"></a> [ci\_push\_repository\_for\_job\_token\_allowed](#input\_ci\_push\_repository\_for\_job\_token\_allowed) | Set to true if you want to allow pushing to the repository for job tokens. | `bool` | `false` | no |
 | <a name="input_ci_schedules"></a> [ci\_schedules](#input\_ci\_schedules) | List of GitLab CI pipeline schedules for this project with optional inputs and variables. | <pre>list(object({<br/>    name          = string<br/>    description   = string<br/>    ref           = string<br/>    cron          = string<br/>    cron_timezone = optional(string)<br/>    active        = optional(bool)<br/>    inputs = optional(list(object({<br/>      name  = string<br/>      value = any<br/>    })))<br/>    variables = optional(map(object({<br/>      value         = string<br/>      variable_type = optional(string)<br/>    })))<br/>  }))</pre> | `[]` | no |
 | <a name="input_default_branch"></a> [default\_branch](#input\_default\_branch) | Default branch | `string` | `""` | no |
