@@ -290,3 +290,9 @@ variable "ci_push_repository_for_job_token_allowed" {
   type        = bool
   default     = false
 }
+
+variable "ci_cd_catalog_enabled" {
+  description = "Enable the project as a CI/CD Catalog resource."
+  type        = bool
+  default     = false
+}
